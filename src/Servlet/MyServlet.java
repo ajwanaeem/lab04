@@ -15,6 +15,8 @@ public class MyServlet extends HttpServlet {
         out.println("Servlet called");
         out.println("Data Inserted Successfully");
         String username = request.getParameter("username");
+        out.println("Data Inserted Successfully 2");
+        out.println("Data Inserted Successfully 3");
         //response.sendRedirect("servletdisplay");
 
 
